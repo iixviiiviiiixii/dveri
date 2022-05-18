@@ -172,6 +172,7 @@ img {
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 5px 10px 5px #dbe9fc;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn:active {
@@ -231,6 +232,12 @@ img {
     font-size: 36px;
     font-weight: 600;
     letter-spacing: 2px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.number:active {
+    color: var(--green-color);
+    font-size: 34px;
 }
 
 @media screen and (max-width: 855px) {
@@ -330,6 +337,10 @@ img {
     .number {
         font-size: 30px;
     }
+
+    .number:active {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 505px) {
@@ -387,6 +398,10 @@ img {
     .number {
         font-size: 26px;
     }
+
+    .number:active {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -416,9 +431,5 @@ img {
 
     .about__text-2 {
         margin-bottom: 30px;
-    }
-
-    .number {
-        font-size: 26px;
     }
 }
